@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/YuvrajWarad/static/css/main.cb706b22.css",
-    "main.js": "/YuvrajWarad/static/js/main.ffd4287a.js",
+    "main.js": "/YuvrajWarad/static/js/main.68a6be89.js",
     "static/js/453.a08e2608.chunk.js": "/YuvrajWarad/static/js/453.a08e2608.chunk.js",
     "index.html": "/YuvrajWarad/index.html",
     "static/media/blob-haikei.svg": "/YuvrajWarad/static/media/blob-haikei.ed4231cd548cd312fe4f.svg",
     "main.cb706b22.css.map": "/YuvrajWarad/static/css/main.cb706b22.css.map",
-    "main.ffd4287a.js.map": "/YuvrajWarad/static/js/main.ffd4287a.js.map",
+    "main.68a6be89.js.map": "/YuvrajWarad/static/js/main.68a6be89.js.map",
     "453.a08e2608.chunk.js.map": "/YuvrajWarad/static/js/453.a08e2608.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb706b22.css",
-    "static/js/main.ffd4287a.js"
+    "static/js/main.68a6be89.js"
   ]
 }
