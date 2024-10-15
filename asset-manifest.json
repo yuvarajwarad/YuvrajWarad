@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/YuvrajWarad/static/css/main.faac06d7.css",
-    "main.js": "/YuvrajWarad/static/js/main.e554cd00.js",
+    "main.css": "/YuvrajWarad/static/css/main.f0e590c2.css",
+    "main.js": "/YuvrajWarad/static/js/main.04413ca9.js",
     "static/js/453.a08e2608.chunk.js": "/YuvrajWarad/static/js/453.a08e2608.chunk.js",
     "index.html": "/YuvrajWarad/index.html",
     "static/media/blob-haikei.svg": "/YuvrajWarad/static/media/blob-haikei.ed4231cd548cd312fe4f.svg",
-    "main.faac06d7.css.map": "/YuvrajWarad/static/css/main.faac06d7.css.map",
-    "main.e554cd00.js.map": "/YuvrajWarad/static/js/main.e554cd00.js.map",
+    "main.f0e590c2.css.map": "/YuvrajWarad/static/css/main.f0e590c2.css.map",
+    "main.04413ca9.js.map": "/YuvrajWarad/static/js/main.04413ca9.js.map",
     "453.a08e2608.chunk.js.map": "/YuvrajWarad/static/js/453.a08e2608.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faac06d7.css",
-    "static/js/main.e554cd00.js"
+    "static/css/main.f0e590c2.css",
+    "static/js/main.04413ca9.js"
   ]
 }
