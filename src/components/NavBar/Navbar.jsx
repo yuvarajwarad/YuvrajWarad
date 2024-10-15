@@ -28,10 +28,7 @@ const NavBar = () => {
   return (
     <div>
       <>
-        <div
-          className="w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 text-gray-300 z-50"
-          style={{ position: nav ? 'relative' : 'fixed', width: '100vw' }} // Only apply fixed when not in mobile view
-        >
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-900 text-gray-300 z-50">
           {/* YW Stylish Logo */}
           <div className="flex items-center">
             <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center mr-4">
@@ -151,12 +148,6 @@ const NavBar = () => {
         />
       </>
 
-      {/* Additional CSS for preventing horizontal scrolling */}
-      <style jsx global>{`
-        body {
-          overflow-x: hidden;
-        }
-      `}</style>
     </div>
   );
 };
