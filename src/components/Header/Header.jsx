@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { TypeAnimation } from 'react-type-animation';
-import styled, { keyframes } from 'styled-components';
+// import styled, { keyframes } from 'styled-components';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { ScrollDown, ScrollLink } from "./HeroElements";
 import { Link as LinkScroll } from "react-scroll"; // Import Link from react-scroll
@@ -24,25 +23,9 @@ const Header = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <TypeAnimation
-            sequence={[
-              "Hello, I'm Yuvraj Warad",
-              2000,
-              'Full-Stack Developer',
-              2000,
-              'Designer',
-              2000,
-              'Next.js Developer',
-              2000,
-            ]}
-            wrapper="span"
-            speed={50}
-            style={{ fontSize: '1.5em', display: 'inline-block' }}
-            repeat={Infinity}
-          />
+          Hello, I'm Yuvraj Warad
         </motion.h1>
         <p className="text-lg text-white text-center mb-6">
-          Full-Stack Developer | Designer | Next.js Developer
         </p>
         {/* Wrap button with LinkScroll */}
         <LinkScroll to="projects" smooth={true} duration={500}>
@@ -60,22 +43,7 @@ const Header = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <TypeAnimation
-            sequence={[
-              "Hello, I'm Yuvraj Warad",
-              2000,
-              'Full-Stack Developer',
-              2000,
-              'Designer',
-              2000,
-              'Next.js Developer',
-              2000,
-            ]}
-            wrapper="span"
-            speed={50}
-            style={{ fontSize: 'inherit', display: 'inline-block' }}
-            repeat={Infinity}
-          />
+          Hello, I'm Yuvraj Warad
         </motion.h1>
         <p className="mt-4 text-lg md:text-2xl text-white animate-fadeIn">
           Full-Stack Developer | Designer | Next.js Developer
@@ -108,34 +76,34 @@ const Header = () => {
         </ScrollDown>
       </ScrollAnimation>
 
-      {/* Zig-Zag Divider */}
+      {/* Zig-Zag Divider
       <DividerContainer>
         <Divider />
-      </DividerContainer>
+      </DividerContainer> */}
     </header>
   );
 };
 
 // Zig-Zag Divider
-const DividerContainer = styled.div`
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-`;
+// const DividerContainer = styled.div`
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+// `;
 
-const zigzag = keyframes`
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
-`;
+// const zigzag = keyframes`
+//   0% { transform: translateX(-100%); }
+//   100% { transform: translateX(100%); }
+// `;
 
-const Divider = styled.div`
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #ffffff, transparent);
-  background-size: 200% 100%;
-  animation: ${zigzag} 1s linear infinite;
-`;
+// const Divider = styled.div`
+//   width: 100%;
+//   height: 2px;
+//   background: linear-gradient(90deg, transparent, #ffffff, transparent);
+//   background-size: 200% 100%;
+//   animation: ${zigzag} 1s linear infinite;
+// `;
 
 export default Header;

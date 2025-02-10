@@ -14,9 +14,11 @@ function Home() {
   return (
     <>
       <div className="background:black">
-        {/* <NavBar /> */}
+        <NavBar />
 
         {/* Wrapping sections in Element with specific IDs for smooth scrolling */}
+        {/* "homepage":"https://yuvarajwarad.github.io/YuvrajWarad/", */}
+
         <Element name="home">
           <Header />
         </Element>
