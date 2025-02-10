@@ -35,12 +35,13 @@ function Home() {
         <Element name="game">
           <GameComponent />
         </Element>
+        <Footer />
+      <ScrollToTop></ScrollToTop>
         
         </div>
      
        
-      <Footer />
-      <ScrollToTop></ScrollToTop>
+      
      
     </>
   );

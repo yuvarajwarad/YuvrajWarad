@@ -46,7 +46,7 @@ const Header = () => {
           Hello, I'm Yuvraj Warad
         </motion.h1>
         <p className="mt-4 text-lg md:text-2xl text-white animate-fadeIn">
-          Full-Stack Developer | Designer | Next.js Developer
+          Full-Stack Developer | Designer | Next.js | React.js | Node.js Developer
         </p>
         {/* Wrap button with LinkScroll */}
         <LinkScroll to="projects" smooth={true} duration={500}>
